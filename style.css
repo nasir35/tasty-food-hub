@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#nav-section{
+    width: 100%;
+    background: #000000E6;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 20%;
+    height: 70px;
+    padding-left: 10%;
+}
+.nav{
+    width: 70%;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 3px 8px;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #d4c276;
+}
+.nav ul li a:active, .nav ul li a:hover, .nav ul li a.active{
+    background: linear-gradient(to right, orange,#FD4F30);
+    color: white;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 5vh;
+}
+.header-descrp{
+    margin-left: 3%;
+}
+h1{
+    font-size: 50px;
+    color: rgb(66, 66, 66);
+}
+h2{
+    font-size: 40px;
+    color: gray;
+}
+#home p{
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+.header-descrp p{
+    margin-bottom: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.man-eating-healthy-food{
+    margin-top: 0;
+    width: 80%;
+}
+.link-btn{
+    background: linear-gradient(to right, orange,red);
+    padding: 12px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+}
+#about-me{
+    background: url(images/about-bg.png);
+    padding-top: 30px;
+}
+.handsome-chef{
+    width: 65%;
+    padding-left: 20%;
+}
+p{
+    
+    color: #545454;
+}
+#about-me p{
+    margin-bottom: 40px;
+    padding-right: 10%;    
+}
+.description{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.recipes-item{
+    width: 100%;
+    margin: 0 6%;
+    padding: 2% 0;
+}
+.one-of-3{
+    width: 23%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    padding: 1%;
+    box-shadow: 8px 8px 30px gray;
+    border-radius: 20px;
+}
+.one-of-3 img{
+    width: 100%;
+    height: 231px;
+    border-radius: 20px;
+}
+.one-of-3 h3{
+    color: #2b2626;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
